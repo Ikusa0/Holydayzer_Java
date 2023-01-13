@@ -40,8 +40,8 @@ public class Holidays {
 
     private List<Holiday> holidays = new ArrayList<>();
 
-    public void add(String name, String day) {
-        this.holidays.add(new Holiday(name, day));
+    public void add(String day, String name) {
+        this.holidays.add(new Holiday(day, name));
     }
 
     public boolean find(String day) {
